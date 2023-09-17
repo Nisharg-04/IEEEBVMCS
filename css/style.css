@@ -46,9 +46,18 @@ h6,
 
 
 /*** Button ***/
+
+
+.btn:hover{
+    color: var(--dark) !important;
+    background-color: white !important;
+    transition: .3s;
+    outline: 1.5px solid #F9A31A;
+}
 .btn {
     font-weight: 500;
     transition: .5s;
+    
 }
 
 .btn-square {
@@ -80,6 +89,7 @@ h6,
 
 /*** Navbar ***/
 .navbar-light .navbar-nav .nav-link {
+    font-size: 20px !important;
     position: relative;
     margin-left: 25px;
     padding: 35px 0;
@@ -90,7 +100,7 @@ h6,
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 20px 0;
-    color: var(--dark) !important;
+    /* color: var(--dark) !important; */
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -103,12 +113,12 @@ h6,
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 80px;
+    max-height: 85px;
     transition: .5s;
 }
 
 .sticky-top.navbar-light .navbar-brand img {
-    max-height: 45px;
+    max-height: 65px;
 }
 
 @media(max-width:500px){
@@ -523,7 +533,40 @@ section.contact-us {
     background: var(--light);
 }
 
+
 /*** Team ***/
+@media(max-width:500px){
+    .team-item{
+        max-width: 80% !important;
+    }
+}
+@media(max-width:400px){
+    .team-item{
+        max-width: 80% !important;
+    }
+}
+@media(max-width:376px){
+    .team-item{
+        width: 80% !important;
+        
+    }
+}
+@media(max-width:1400px){
+    .team-item{
+        max-width: 90% !important;
+    }
+}
+@media(max-width:2735px){
+    .team-item{
+        max-width: 90% !important;
+    }
+}
+@media(max-width:1000px){
+    .team-item{
+        max-width: 85% !important;
+    }
+}
+
 .team-item {
     position: relative;
     transition: .5s;
